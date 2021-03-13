@@ -7,12 +7,12 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>NextJS na prática - Boilerplate</title>
+        <title>My Trips</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <meta
           name="description"
-          content="A simple project to work with Typescript, React,NextJs and Styled components"
+          content='A project made during "NextJs na prática" course'
         />
         <meta name="theme-color" content="#06092b" />
         <link rel="manifest" href="/manifest.json" />
