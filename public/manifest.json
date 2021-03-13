@@ -1,6 +1,6 @@
 {
-  "name": "NextJs na prática- Boilerplate",
-  "short_name": "React Avançado",
+  "name": "My Trips",
+  "short_name": "My Trips",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "#06092B",
-  "description": "Boilerplate utilizando Typescript, React, NextJS e Styled Components!",
+  "description": "A project made during 'NextJs na prática' course",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B"
