@@ -1,0 +1,28 @@
+import styled from 'styled-components'
+
+export const Content = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100vh;
+  max-width: var(--container);
+  margin: auto;
+`
+
+export const Heading = styled.h1`
+  text-align: center;
+  font-size: var(--large);
+  margin-bottom: var(--large);
+`
+
+export const Body = styled.div`
+  p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  li {
+    list-style-type: square;
+  }
+`
