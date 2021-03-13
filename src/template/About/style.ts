@@ -20,7 +20,8 @@ export const Heading = styled.h1`
 export const Body = styled.div`
   p {
     text-align: justify;
-    line-height: 1.6;
+    line-height: 4rem;
+    font-size: var(--medium);
   }
   li {
     list-style-type: square;
