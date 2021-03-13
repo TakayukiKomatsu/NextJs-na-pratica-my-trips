@@ -5,6 +5,9 @@
   },
   "cSpell.words": [
     "fullscreen",
+    "petropolis",
+    "saopaulo",
     "vercel"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
