@@ -14,6 +14,7 @@ const Main = () => (
       src="/img/hero-illustration.svg"
       alt="Um desenvolvedor de frente para telas com códigos"
     />
+    <a href="">Hello world</a>
   </S.Wrapper>
 )
 
