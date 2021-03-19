@@ -3,20 +3,20 @@ import * as S from './style'
 
 import { CloseOutline } from '@styled-icons/evaicons-outline'
 
-const PageTemplate = () => (
+export type PageTemplateProps = {
+  heading: string
+  body: string
+}
+
+const PageTemplate = ({ heading, body }: PageTemplateProps) => (
   <S.Content>
     <LinkWrapper href="/">
       <CloseOutline size={32} />
     </LinkWrapper>
-    <S.Heading>My Trips</S.Heading>
+    <S.Heading>{heading}</S.Heading>
 
     <S.Body>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum,
-        asperiores tempore! Illo, voluptatum doloribus, at est sapiente
-        reiciendis iste aliquam obcaecati, omnis fugit accusantium! Iusto
-        corrupti nesciunt aliquid a! Excepturi.
-      </p>
+      <div dangerouslySetInnerHTML={{ __html: body }} />
     </S.Body>
   </S.Content>
 )
