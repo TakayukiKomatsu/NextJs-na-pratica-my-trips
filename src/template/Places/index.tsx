@@ -14,7 +14,7 @@ export type PlacesTemplateProps = {
   place: {
     slug: string
     name: string
-    description: {
+    description?: {
       html: string
     }
     gallery: ImageProps[]
@@ -34,7 +34,7 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
 
           <S.Body
             dangerouslySetInnerHTML={{
-              __html: place.description.html || ''
+              __html: place.description?.html || ''
             }}
           />
 
